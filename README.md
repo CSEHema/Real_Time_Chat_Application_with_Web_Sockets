@@ -58,7 +58,10 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 ```
 
-###3. Run the App
-Server: cd server && npm start
+### 3. Run the App  
 
-Client: cd client && npm start
+Server: ```cd server && npm start```  
+
+Client: ```cd client && npm start```
+
+## 📸Screenshots
