@@ -1,0 +1,18 @@
+# Dependency folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment and Secrets
+.env
+server/.env
+
+# Production Builds
+client/build/
+
+# Uploaded Media (Don't push users' test files to GitHub)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# System files
+.DS_Store
