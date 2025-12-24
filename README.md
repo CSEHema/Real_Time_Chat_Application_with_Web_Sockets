@@ -44,13 +44,13 @@ cd server
 npm install express cors bcryptjs mongoose socket.io multer
 ```
 
-###Frontend
+#### Frontend
 ```bash
 cd client
 npm install react-router-dom axios react-phone-input-2 libphonenumber-js socket.io-client
 ```
 
-###2. Environment Setup
+### 2. Environment Setup
 Create a ```.env``` file in the ```/server``` directory:
 ```bash
 PORT=5000
@@ -64,4 +64,30 @@ Server: ```cd server && npm start```
 
 Client: ```cd client && npm start```
 
-## 📸Screenshots
+## 📸Screenshots  
+
+
+### Registration Page  
+![Description](./screenshots/chat_app_reg.png)
+---
+
+### Login Page  
+![Description](./screenshots/chat_app_login.png) 
+---
+
+### Dashboard Page(Chat page)
+
+Newly created chat  
+![Description](./screenshots/chat_app_dash1.png)  
+---
+
+Adding a new chat   
+![Description](./screenshots/chat_app_add_chat.png)  
+---
+
+Chat with both text and media messages   
+![Description](./screenshots/chat_app_dash2.png)
+
+---
+![Description](./screenshots/chat_app_dash3.png)  
+---
