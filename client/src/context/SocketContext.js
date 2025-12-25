@@ -22,7 +22,6 @@ export const SocketProvider = ({ children, currentUser }) => {
         });
 
         newSocket.on("connect", () => {
-          console.log("SocketContext: Connected successfully");
           newSocket.emit("join_room", userId);
         });
 
@@ -57,4 +56,5 @@ export const SocketProvider = ({ children, currentUser }) => {
       {children}
     </SocketContext.Provider>
   );
+
 };
