@@ -29,7 +29,6 @@ const Sidebar = ({
     if (!socket) return;
 
     const handleOnlineUsers = (ids) => {
-      console.log("Sidebar: Received online IDs", ids);
       setOnlineIds(ids);
       
       // Update the current list immediately when the server broadcasts
